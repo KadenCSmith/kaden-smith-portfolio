@@ -12,3 +12,8 @@ header nav { flex-wrap: wrap; justify-content: flex-end; gap: 1.1rem; }
 @media(max-width:700px){header nav{gap:.55rem;font-size:.8rem}.about-section{padding:4rem 1.2rem}.bike-figure img{max-height:480px}}
 
 .nav-menu{position:relative}.nav-menu summary{cursor:pointer;list-style:none;font-weight:600}.nav-menu summary::-webkit-details-marker{display:none}.nav-dropdown{position:absolute;right:0;top:calc(100% + .8rem);min-width:15rem;padding:.7rem;background:#f7f6f0;border:1px solid #d2d8d1;box-shadow:0 14px 35px #152a1e20;z-index:10;display:grid;gap:0}.nav-dropdown a{display:block;padding:.65rem .8rem;white-space:nowrap}.nav-dropdown a:hover,.nav-dropdown a:focus{background:#e4eae3}.iteration-history>summary{cursor:pointer;font-size:1.2rem;font-weight:600;padding:1rem 0;border-top:1px solid #aeb8af;border-bottom:1px solid #aeb8af;list-style:none}.iteration-history>summary span{float:right}.iteration-history[open]>summary span{transform:rotate(45deg)}.image-note a{color:inherit;text-decoration:underline}
+
+/* Keep the menu label and chevron separate at every viewport width. */
+.nav-menu > summary{display:inline-flex;align-items:center;gap:.55rem;white-space:nowrap}
+.nav-menu > summary span{float:none;display:inline-block;flex:none;line-height:1}
+.nav-menu[open] > summary span{transform:rotate(180deg)}
