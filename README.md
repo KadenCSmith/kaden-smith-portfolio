@@ -1,3 +1,5 @@
+**[View Live Portfolio](https://kadencsmith.github.io/kaden-smith-portfolio/)**
+
 # Kaden Smith portfolio
 
 Static portfolio source. Files in dist/ are ready for a static web host. No backend, analytics, credentials or external runtime dependencies. The user approved the new public repository KadenCSmith/kaden-smith-portfolio.
